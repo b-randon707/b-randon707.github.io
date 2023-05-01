@@ -10,6 +10,9 @@ img {
 }
 
 @media screen and (max-width:1024px) {
+    body {
+        background-color: black;
+    }
     img {
         width: 200px;
         border-radius: 10%;
