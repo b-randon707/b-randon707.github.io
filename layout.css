@@ -4,7 +4,8 @@ img {
 }
 
 div {
-    padding-top: 15px;
+    border: 1px solid black;
+    padding-top: 25px;
 }
 
 .center {
@@ -16,6 +17,10 @@ div {
 @media screen and (max-width:1024px) {
     body {
         background-color: beige;
+    }
+    div {
+        border: 1px solid black;
+        padding-top: 25px;
     }
     img {
         width: 200px;
