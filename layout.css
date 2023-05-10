@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: floralwhite;
 }
 
 img {
@@ -21,7 +21,7 @@ div {
 
 @media screen and (max-width:1024px) {
     body {
-        background-color: beige;
+        background-color: floralwhite;
     }
     div {
         border: 1px solid red;
