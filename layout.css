@@ -7,7 +7,7 @@ img {
     display: block;
     padding-left: 15px;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 
 div {
@@ -21,7 +21,7 @@ div {
         background-color: beige;
     }
     div {
-        border: 1px solid blue;
+        border: 1px solid red;
         padding-top: 25px;
     }
     img {
@@ -32,6 +32,6 @@ div {
         display: block;
         padding-left: 15px;
         padding-top: 15px;
-        padding-bottom: 5px;
+        padding-bottom: 1px;
     }
 }
