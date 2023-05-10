@@ -4,7 +4,7 @@ img {
 }
 
 .left {
-    display: ellipse;
+    display: block;
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 10px;
