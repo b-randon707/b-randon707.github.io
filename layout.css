@@ -4,7 +4,7 @@ img {
 }
 
 div {
-    border: 1px solid black;
+    border: 1px solid blue;
     padding-top: 25px;
 }
 
@@ -19,7 +19,7 @@ div {
         background-color: beige;
     }
     div {
-        border: 1px solid black;
+        border: 1px solid blue;
         padding-top: 25px;
     }
     img {
