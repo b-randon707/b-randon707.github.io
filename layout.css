@@ -7,7 +7,7 @@ img {
     display: block;
     padding-left: 15px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 div {
@@ -32,6 +32,6 @@ div {
         display: block;
         padding-left: 15px;
         padding-top: 15px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
 }
