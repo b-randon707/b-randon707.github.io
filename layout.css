@@ -16,6 +16,7 @@ a {
     color: oldlace;
     border: 1px solid;
     padding: 0.5rem;
+    padding-bottom: 5px;
     text-align: center;
     text-decoration: none;
     transition: all 0.5s ease-out;
@@ -23,8 +24,8 @@ a {
 
 a:hover,
 a:focus {
-    background-color: oldlace;
-    color: powderblue;
+    background-color: powderblue;
+    color: oldlace;
 }
 
 
