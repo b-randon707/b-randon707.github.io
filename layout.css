@@ -13,7 +13,7 @@ nav {
 a {
     flex: 1;
     background-color: darkslategrey;
-    color: #fff;
+    color: darkseagreen;
     border: 1px solid;
     padding: 0.5rem;
     text-align: center;
@@ -23,7 +23,7 @@ a {
 
 a:hover,
 a:focus {
-    background-color: #fff;
+    background-color: darkseagreen;
     color: darkslategrey;
 }
 
