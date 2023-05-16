@@ -12,8 +12,8 @@ nav {
 
 a {
     flex: 1;
-    background-color: darkslategrey;
-    color: darkseagreen;
+    background-color: midnightblue;
+    color: oldlace;
     border: 1px solid;
     padding: 0.5rem;
     text-align: center;
@@ -23,8 +23,8 @@ a {
 
 a:hover,
 a:focus {
-    background-color: darkseagreen;
-    color: darkslategrey;
+    background-color: oldlace;
+    color: powderblue;
 }
 
 
