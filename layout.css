@@ -1,93 +1,146 @@
-/* start Header */
-
-.Buho-image {
-    background: #59adeb;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
-    background-size: 350% 350%;
-    animation: waveColors 11s ease infinite;
-    /* End Wave Color */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.Buho-header {
-    font-family: 'Lucida Sans', Times, serif;
-    color: #fff;
-    font-weight: 200;
-    line-height: 48px;
-    margin-bottom: 20px;
-    font-size: 32px;
-}
-
-.avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-top: 50px;
-}
-
-
-/*stat animation waveColors*/
-
-@-webkit-keyframes waveColors {
-    0% {
-        background-position: 0% 7%;
+    /* start Header */
+    
+    .Buho-image {
+        background: #59adeb;
+        /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+        background-size: 350% 350%;
+        animation: waveColors 11s ease infinite;
+        /* End Wave Color */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
     }
-    50% {
-        background-position: 100% 94%;
-    }
-    100% {
-        background-position: 0% 7%;
-    }
-}
-
-@keyframes waveColors {
-    0% {
-        background-position: 0% 7%;
-    }
-    50% {
-        background-position: 100% 94%;
-    }
-    100% {
-        background-position: 0% 7%;
-    }
-}
-
-
-/*end animation wavecolors*/
-
-body {
-    background-color: floralwhite;
-}
-
-@media screen and (max-width: 1024px) {
-    body {
-        background-color: floralwhite;
-    }
+    
     .Buho-header {
         font-family: 'Lucida Sans', Times, serif;
         color: #fff;
         font-weight: 200;
         line-height: 48px;
         margin-bottom: 20px;
-        font-size: 32px;
+        font-size: 42px;
     }
+    
+    .profilepic {
+        color: white;
+        font-weight: 500;
+    }
+    
+    .Button {
+        background: transparent;
+        border-color: currentcolor;
+        border-style: solid;
+        border-width: 1px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: inherit;
+        cursor: pointer;
+        display: inline-block;
+        font: inherit;
+        line-height: normal;
+        margin: 0;
+        padding: .4em .75em;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        white-space: normal;
+    }
+    
+    .Buho-buttoncontainer {
+        color: #fff;
+        margin: 0 auto;
+        padding-top: 1.5em;
+        padding-bottom: 1em;
+        text-align: right;
+        width: 95%;
+    }
+    
+    .Buho-buttoncontainer .Button {
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 16px;
+        font-weight: 200;
+        padding: 10px 35px;
+    }
+    
+    .Buho-buttoncontainer .Button.Movies {
+        background: rgba(255, 255, 255, 0.3);
+        border: 1px solid transparent;
+    }
+    
+    .Buho-buttoncontainer .Button:hover,
+    .Buho-buttoncontainer .Button:focus {
+        background: #fff;
+        color: #1da1f2;
+    }
+    
     .avatar {
         width: 100px;
         height: 100px;
         border-radius: 50%;
         margin-top: 50px;
     }
-}
+    /*stat animation waveColors*/
+    
+    @-webkit-keyframes waveColors {
+        0% {
+            background-position: 0% 7%;
+        }
+        50% {
+            background-position: 100% 94%;
+        }
+        100% {
+            background-position: 0% 7%;
+        }
+    }
+    
+    @keyframes waveColors {
+        0% {
+            background-position: 0% 7%;
+        }
+        50% {
+            background-position: 100% 94%;
+        }
+        100% {
+            background-position: 0% 7%;
+        }
+    }
+    /*end animation wavecolors*/
+    
+    body {
+        background-color: floralwhite;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        body {
+            background-color: floralwhite;
+        }
+        .Buho-header {
+            font-family: 'Lucida Sans', Times, serif;
+            color: #fff;
+            font-weight: 200;
+            line-height: 48px;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-top: 50px;
+        }
+    }
