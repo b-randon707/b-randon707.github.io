@@ -117,12 +117,12 @@
     /*end animation wavecolors*/
     
     body {
-        background-color: slategrey;
+        background-color: #3f3f3f;
     }
     
     @media screen and (max-width: 1024px) {
         body {
-            background-color: slategrey;
+            background-color: #3f3f3f;
         }
         .Buho-header {
             font-family: 'Lucida Sans', Times, serif;
