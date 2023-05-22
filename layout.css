@@ -116,6 +116,14 @@ div.utrgvpics {
     font-family: 'Lucida Sans', Times, serif;
 }
 
+.brownsville {
+    display: inline-block;
+    height: 170px;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .csbuilding {
     display: inline-block;
     height: 170px;
