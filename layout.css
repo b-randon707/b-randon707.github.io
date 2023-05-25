@@ -100,7 +100,7 @@ div.utrgvpics {
     margin-left: 0px;
     border: 2px solid black;
     color: Black;
-    background-color: Ivory;
+    background-color: transparent;
     width: 100%;
 }
 
@@ -165,7 +165,7 @@ div.utrgvpics {
 /*end animation wavecolors*/
 
 body {
-    background-color: ivory;
+    background-color: #fff;
 }
 
 

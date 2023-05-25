@@ -27,6 +27,9 @@ body {
     margin-bottom: 5px;
 }
 
+
+/*alignment Experience(internship),date attended*/
+
 .internship {
     display: flex;
     justify-content: space-between;
@@ -36,6 +39,9 @@ body {
 .interndate {
     margin-left: auto;
 }
+
+
+/*alignment Experience(university), date attended*/
 
 .utrgvdev {
     display: flex;
@@ -47,6 +53,9 @@ body {
     margin-left: auto;
 }
 
+
+/*alignment Education(university), date attended*/
+
 .university {
     display: flex;
     justify-content: space-between;
@@ -57,6 +66,9 @@ body {
     margin-left: auto;
 }
 
+
+/*alignment andy,michael contact-container*/
+
 .contact-container {
     display: flex;
 }
@@ -65,3 +77,6 @@ body {
 .andyRios {
     flex: 1;
 }
+
+
+/*end of alignment andy,michael contact-container*/
