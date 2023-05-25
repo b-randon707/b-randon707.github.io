@@ -46,3 +46,22 @@ body {
 .devdate {
     margin-left: auto;
 }
+
+.university {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.unidate {
+    margin-left: auto;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.michaelPersans,
+.andyRios {
+    flex: 1;
+}
