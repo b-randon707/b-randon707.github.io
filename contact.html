@@ -10,6 +10,38 @@
 </head>
 
 <body>
+
+    <header class="w3-container">
+        <div class="Buho-image">
+            <div class="Buho-content">
+                <div class="Buho-buttoncontainer">
+
+                    <img src=" ./assets/brandongarza.png " alt="Avatar " class="avatar ">
+                    <p class="nametitle ">BRANDON D. GARZA <br> Computer Engineer</p>
+                    <h2 class="Buho-header ">Bienvenidos, Welcome </h2>
+
+                    <!--    Hyperlinks to link between pages      -->
+                    <a href="index.html" class=" Button Home " data-element="buttons ">Home</a>
+                    <a href="resume.html" class=" Button Resume " data-element="buttons ">Resume</a>
+                    <a href="contact.html" class="Button Contact" data-element="buttons">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <button onclick="homePage()"></button>
+    <button onclick="contactPage()"></button>
+    <script>
+        function homePage() {
+            location.replace("index.html")
+        }
+
+        function resumePage() {
+            location.replace("resume.html")
+        }
+    </script>
+
+
     <div class="contact-container">
         <form onsubmit="sendEmail(); reset(); return false;">
             <h3>Contact Me</h3>

@@ -1,10 +1,12 @@
 .contact-container {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     background: ivory;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 390px;
+    margin-left: 5%;
 }
 
 form {
