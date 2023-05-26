@@ -96,7 +96,7 @@
 
 div.utrgv-container {
     position: relative;
-    top: 400px;
+    top: 420px;
     margin-left: 0px;
     padding-bottom: 10px;
     border: 2px solid black;
@@ -117,7 +117,7 @@ div.utrgv-container {
 .grad {
     font-size: 16px;
     font-family: 'Lucida Sans', Times, serif;
-    margin: 400px;
+    margin: 420px;
     margin-left: 10px;
 }
 
