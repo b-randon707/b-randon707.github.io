@@ -115,10 +115,10 @@ div.utrgvpics {
 }
 
 .grad {
-    margin-left: 10px;
     font-size: 16px;
     font-family: 'Lucida Sans', Times, serif;
-    top: 500px;
+    margin: 400px;
+    margin-left: 10px;
 }
 
 .brownsville {
