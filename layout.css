@@ -94,6 +94,9 @@
     margin-top: 0px;
 }
 
+
+/* end Header */
+
 div.utrgv-container {
     position: relative;
     top: 405px;
@@ -106,10 +109,18 @@ div.utrgv-container {
     display: flex;
 }
 
+.universityoftexasrgv {
+    display: inline-block;
+    height: 170px;
+    width: 24vw;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .utrgvsign {
     display: inline-block;
     height: 170px;
-    width: 290px;
+    width: 24vw;
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -124,7 +135,7 @@ div.utrgv-container {
 .brownsville {
     display: inline-block;
     height: 170px;
-    width: 290px;
+    width: 24vw;
     margin-top: 10px;
     margin-left: 10px;
 }
@@ -132,7 +143,7 @@ div.utrgv-container {
 .csbuilding {
     display: inline-block;
     height: 170px;
-    width: 290px;
+    width: 24vw;
     margin-top: 10px;
     margin-left: 5px;
 }
