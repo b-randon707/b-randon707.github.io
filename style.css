@@ -1,6 +1,5 @@
 .contact-container {
     width: 90%;
-    height: 100vh;
     background: ivory;
     display: flex;
     align-items: center;
@@ -50,6 +49,7 @@ form button {
 @media screen and (max-width: 1024px) {
     .contact-container {
         width: 90%;
+        height: 50%;
         background: ivory;
         display: flex;
         align-items: center;
