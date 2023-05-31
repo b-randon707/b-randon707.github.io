@@ -46,3 +46,50 @@ form button {
     margin: 20px auto 0;
     border-radius: 30px;
 }
+
+@media screen and (max-width: 1024px) {
+    .contact-container {
+        width: 90%;
+        height: 100vh;
+        background: ivory;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 390px;
+        margin-left: 5%;
+    }
+    label {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 90%;
+        border-radius: 10px;
+    }
+    form h3 {
+        color: teal;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    form input,
+    textarea {
+        border: 0;
+        margin: 10px 0;
+        padding: 20px;
+        outline: none;
+        background: powderblue;
+        font-size: 16px;
+    }
+    form button {
+        padding: 15px;
+        background: slategrey;
+        color: white;
+        font-size: 18px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: 150px;
+        margin: 20px auto 0;
+        border-radius: 30px;
+    }
+}
