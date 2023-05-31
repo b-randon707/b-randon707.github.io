@@ -41,20 +41,29 @@
         }
     </script>
 
-
-    <div class="contact-container">
-        <form action="contact.php" method="POST">
+    <form action="https://formspree.io/f/xoqzzoly" method="POST">
+        <div class="contact-container">
+            <label>
             <h3>Contact Me</h3>
             <h4>* Please do not message me at this moment, our mailbox is not set up yet *</h4>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Email id" required>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <textarea name="message" row="4" placeholder="How can we help you?"></textarea>
+
+                Your Name:
+                <input type="text" name="name" placeholder="Your Name" required>
+            
+        
+                Your Email:
+                <input type="email" name="email" placeholder="Email id" required>
+            
+            
+                Subject:
+                <input type="text" name="subject" placeholder="Subject" required>
+            
+            
+                <textarea name="message" row="4" placeholder="How can we help you?"></textarea>
+            
             <button type="submit">Send</button>
-
-
-        </form>
-    </div>
+            <label>
+        </div>
 
 </body>
 
