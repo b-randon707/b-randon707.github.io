@@ -7,11 +7,11 @@ body {
 }
 
 .resume-container {
-    max-width: 85%;
+    max-width: 95%;
     margin: 360px auto 0;
     /* Updated margin */
     background-color: #fff;
-    padding: 20px;
+    padding: 35px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -73,9 +73,17 @@ body {
     display: flex;
 }
 
-.michaelPersans,
+.michaelPersans {
+    display: inline-block;
+}
+
 .andyRios {
     flex: 1;
+    margin-left: 20px;
+}
+
+.imeldaTrejo {
+    margin-left: 20px;
 }
 
 
