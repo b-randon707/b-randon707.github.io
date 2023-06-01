@@ -36,7 +36,8 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-weight: 570;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 .Button {
@@ -68,8 +69,8 @@
     margin: 0 auto;
     padding-top: 1.5em;
     padding-bottom: 1em;
-    text-align: center;
-    width: 95%;
+    text-align: left;
+    width: 88%;
 }
 
 .Buho-buttoncontainer .Button {
@@ -89,7 +90,7 @@
 .avatar {
     width: 160px;
     height: 160px;
-    border-radius: 50%;
+    border-radius: 10%;
     border: 3px solid white;
     margin-top: 0px;
 }
