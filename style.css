@@ -19,7 +19,7 @@ label {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
     animation: waveColors 11s ease infinite;
-    background-size: 200%;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
@@ -78,7 +78,7 @@ form button {
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
         /* IE6-9 fallback on horizontal gradient */
         animation: waveColors 11s ease infinite;
-        background-size: 200%;
+        background-size: 100%;
         display: flex;
         flex-direction: column;
         padding: 2vw 4vw;

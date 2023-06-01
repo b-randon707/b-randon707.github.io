@@ -7,7 +7,7 @@ body {
 }
 
 .resume-container {
-    max-width: 100%;
+    max-width: 85%;
     margin: 360px auto 0;
     /* Updated margin */
     background-color: #fff;
