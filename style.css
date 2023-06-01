@@ -1,16 +1,25 @@
 .contact-container {
     width: 90%;
-    background: ivory;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 390px;
+    margin-top: 400px;
     margin-left: 5%;
 }
 
 label {
-    background-color: white;
-    display: flex;
+    background: #59adeb;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    animation: waveColors 11s ease infinite;
+    background-size: 200% display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
     width: 90%;
@@ -18,7 +27,7 @@ label {
 }
 
 form h3 {
-    color: teal;
+    color: Ivory;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -29,15 +38,15 @@ textarea {
     margin: 10px 0;
     padding: 20px;
     outline: none;
-    background: powderblue;
+    background: ivory;
     font-size: 16px;
 }
 
 form button {
     padding: 15px;
-    background: slategrey;
-    color: white;
-    font-size: 18px;
+    background: Ivory;
+    color: darkblue;
+    font-size: 22px;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -49,16 +58,26 @@ form button {
 @media screen and (max-width: 1024px) {
     .contact-container {
         width: 90%;
-        height: 50%;
-        background: ivory;
+        height: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 390px;
+        margin-top: 400px;
         margin-left: 5%;
     }
     label {
-        background-color: white;
+        background: #59adeb;
+        /* Old browsers */
+        background: -moz-linear-gradient(-45deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, #80c7fa 0%, #59adeb 23%, #42c2b5 52%, #34ce93 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59adeb', endColorstr='#34ce93', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+        animation: waveColors 11s ease infinite;
+        background-size: 200%;
         display: flex;
         flex-direction: column;
         padding: 2vw 4vw;
@@ -66,7 +85,7 @@ form button {
         border-radius: 10px;
     }
     form h3 {
-        color: teal;
+        color: ivory;
         font-weight: 800;
         margin-bottom: 20px;
     }
@@ -76,14 +95,14 @@ form button {
         margin: 10px 0;
         padding: 20px;
         outline: none;
-        background: powderblue;
+        background: ivory;
         font-size: 16px;
     }
     form button {
         padding: 15px;
-        background: slategrey;
-        color: white;
-        font-size: 18px;
+        background: Ivory;
+        color: darkblue;
+        font-size: 22px;
         border: 0;
         outline: none;
         cursor: pointer;
