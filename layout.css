@@ -101,12 +101,12 @@
 div.utrgv-container {
     position: relative;
     top: 415px;
-    margin-left: 10px;
+    margin-left: 5px;
     padding-bottom: 15px;
     border: 4px solid black;
     color: Black;
     /* background-color: ; */
-    width: 100%;
+    width: 98%;
     display: flex;
     border-radius: 10px;
 }
