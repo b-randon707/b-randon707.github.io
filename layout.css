@@ -27,7 +27,7 @@
     color: #fff;
     font-weight: 200;
     line-height: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 30px;
     font-size: 42px;
 }
@@ -70,7 +70,7 @@
     padding-top: 1.5em;
     padding-bottom: 1em;
     text-align: left;
-    width: 88%;
+    width: 91%;
 }
 
 .Buho-buttoncontainer .Button {
@@ -90,7 +90,7 @@
 .avatar {
     width: 160px;
     height: 160px;
-    border-radius: 10%;
+    border-radius: 20%;
     border: 3px solid white;
     margin-top: 0px;
 }
@@ -101,7 +101,7 @@
 div.utrgv-container {
     position: relative;
     top: 405px;
-    margin-left: 0px;
+    margin-left: 10px;
     padding-bottom: 10px;
     /* border: 0.5px solid black; */
     color: Black;
