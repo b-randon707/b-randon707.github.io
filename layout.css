@@ -102,12 +102,13 @@ div.utrgv-container {
     position: relative;
     top: 405px;
     margin-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     /* border: 0.5px solid black; */
     color: Black;
-    background-color: transparent;
+    background-color: turquoise;
     width: 100%;
     display: flex;
+    border-radius: 10px;
 }
 
 .utrgvfountain {
@@ -116,6 +117,7 @@ div.utrgv-container {
     width: 24vw;
     margin-top: 20px;
     margin-left: 10px;
+    object-fit: fill;
 }
 
 .utrgvsign {
@@ -123,14 +125,16 @@ div.utrgv-container {
     height: 170px;
     width: 24vw;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 8px;
+    object-fit: fill;
 }
 
 .grad {
     font-size: 16px;
     font-family: 'Lucida Sans', Times, serif;
     margin: 420px;
-    margin-left: 10px;
+    margin-left: 8px;
+    object-fit: fill;
 }
 
 .brownsville {
@@ -138,7 +142,8 @@ div.utrgv-container {
     height: 170px;
     width: 24vw;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 8px;
+    object-fit: fill;
 }
 
 .csbuilding {
@@ -146,7 +151,9 @@ div.utrgv-container {
     height: 170px;
     width: 24vw;
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 8px;
+    margin-right: 10px;
+    object-fit: fill;
 }
 
 
