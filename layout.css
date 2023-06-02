@@ -103,9 +103,9 @@ div.utrgv-container {
     top: 405px;
     margin-left: 10px;
     padding-bottom: 15px;
-    /* border: 0.5px solid black; */
+    border: 4px solid black;
     color: Black;
-    background-color: turquoise;
+    background-color: ;
     width: 100%;
     display: flex;
     border-radius: 10px;
@@ -118,6 +118,7 @@ div.utrgv-container {
     margin-top: 20px;
     margin-left: 10px;
     object-fit: fill;
+    border: 0.5px solid black;
 }
 
 .utrgvsign {
@@ -127,13 +128,14 @@ div.utrgv-container {
     margin-top: 20px;
     margin-left: 8px;
     object-fit: fill;
+    border: 0.5px solid black;
 }
 
 .grad {
     font-size: 16px;
     font-family: 'Lucida Sans', Times, serif;
     margin: 420px;
-    margin-left: 8px;
+    margin-left: 10px;
     object-fit: fill;
 }
 
@@ -144,6 +146,7 @@ div.utrgv-container {
     margin-top: 20px;
     margin-left: 8px;
     object-fit: fill;
+    border: 0.5px solid black;
 }
 
 .csbuilding {
@@ -154,6 +157,7 @@ div.utrgv-container {
     margin-left: 8px;
     margin-right: 10px;
     object-fit: fill;
+    border: 0.5px solid black;
 }
 
 
@@ -187,7 +191,7 @@ div.utrgv-container {
 /*end animation wavecolors*/
 
 body {
-    background-color: #fff;
+    background-color: ivory;
 }
 
 
