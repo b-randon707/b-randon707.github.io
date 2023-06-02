@@ -100,12 +100,12 @@
 
 div.utrgv-container {
     position: relative;
-    top: 405px;
+    top: 415px;
     margin-left: 10px;
     padding-bottom: 15px;
     border: 4px solid black;
     color: Black;
-    background-color: ;
+    /* background-color: ; */
     width: 100%;
     display: flex;
     border-radius: 10px;
